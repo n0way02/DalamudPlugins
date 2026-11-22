@@ -1,0 +1,23 @@
+[
+  {
+    "name": "FateFrenzy",
+    "url": "https://raw.githubusercontent.com/n0way02/FateFrenzy/main/repo/pluginmaster.json",
+    "defaults": {
+      "Punchline": "FATEs, farmed for you with frenzy!",
+      "DalamudApiLevel": 15
+    }
+  },
+  {
+    "name": "Digitas Automatizados",
+    "url": "https://raw.githubusercontent.com/n0way02/DigitasAutomatizados/main/pluginmaster.json",
+    "defaults": {
+      "RepoUrl": "https://github.com/n0way02/DigitasAutomatizados",
+      "Tags": [
+        "Gold Saucer",
+        "Keybound Brawler",
+        "Minigame",
+        "Automation"
+      ]
+    }
+  }
+]
