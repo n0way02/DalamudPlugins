@@ -1,9 +1,14 @@
 # ⚡ n0way02's Dalamud Plugin Repository
 
 [![Dalamud API 15](https://img.shields.io/badge/Dalamud-API%2015-blue.svg)](https://dalamud.dev/)
+[![Website](https://img.shields.io/badge/Website-n0wayplugins.discloud.app-6410C9.svg)](https://n0wayplugins.discloud.app/)
+[![Fate Tracker](https://img.shields.io/badge/Fate%20Tracker-Live-FFE600.svg)](https://n0wayplugins.discloud.app/tracker)
 [![Ko-fi Support](https://img.shields.io/badge/Support%20me-Ko--fi-ff5e5b.svg)](https://ko-fi.com/n0way02)
 
 Official unified **Dalamud Custom Plugin Repository** for all Final Fantasy XIV plugins developed by **n0way02**.
+
+🌐 **Official Website & Plugin Hub:** [https://n0wayplugins.discloud.app/](https://n0wayplugins.discloud.app/)  
+📡 **FateFrenzy Live Web Tracker:** [https://n0wayplugins.discloud.app/tracker](https://n0wayplugins.discloud.app/tracker)
 
 Add this single URL once in Dalamud to access and automatically update all plugins below (plus any future releases).
 
