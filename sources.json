@@ -19,5 +19,13 @@
         "Automation"
       ]
     }
+  },
+  {
+    "name": "SubFrenzy",
+    "url": "https://raw.githubusercontent.com/n0way02/SubFrenzy/main/pluginmaster.json",
+    "defaults": {
+      "RepoUrl": "https://github.com/n0way02/SubFrenzy",
+      "DalamudApiLevel": 15
+    }
   }
 ]
