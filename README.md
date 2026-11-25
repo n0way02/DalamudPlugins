@@ -35,6 +35,7 @@ Add this single URL once in Dalamud to access and automatically update all plugi
 | **Digitas Automatizados** | `KeyboundTyper` | Smart auto-typer and Auto-Loop farmer for the Gold Saucer **Keybound Brawler** minigame (FFXIV x FFVII). | [n0way02/DigitasAutomatizados](https://github.com/n0way02/DigitasAutomatizados) |
 | **SubFrenzy** | `SubFrenzy` | Automatic Submarine Gil & Salvaged Accessories tracker by day, month, year, and character — AutoRetainer Multi-Mode friendly with bar charts and EN/PT-BR UI. | [n0way02/SubFrenzy](https://github.com/n0way02/SubFrenzy) |
 | **FriendList Frenzy** | `FriendListFrenzy` | Modern Friend List manager with custom groups, nicknames, notes, Last Seen tracking, protected favorites, and safe Bulk Friend Removal. | [n0way02/FriendListFrenzy](https://github.com/n0way02/FriendListFrenzy) |
+| **PetFrenzy** | `PetFrenzy` | Animated Eorzea Tamagotchi companion (Carbuncle, Fat Cat, Moogle, Namazu) that hatches from an egg and reacts live to your FFXIV gameplay! | [n0way02/PetFrenzy](https://github.com/n0way02/PetFrenzy) |
 
 ---
 

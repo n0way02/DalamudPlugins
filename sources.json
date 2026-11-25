@@ -35,5 +35,13 @@
       "RepoUrl": "https://github.com/n0way02/FriendListFrenzy",
       "DalamudApiLevel": 15
     }
+  },
+  {
+    "name": "PetFrenzy",
+    "url": "https://raw.githubusercontent.com/n0way02/PetFrenzy/main/pluginmaster.json",
+    "defaults": {
+      "RepoUrl": "https://github.com/n0way02/PetFrenzy",
+      "DalamudApiLevel": 15
+    }
   }
 ]
