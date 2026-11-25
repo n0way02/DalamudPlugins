@@ -7,6 +7,9 @@ const rootDir = resolve(__dirname, '..');
 const sourcesPath = resolve(rootDir, 'sources.json');
 const outputPath = resolve(rootDir, 'pluginmaster.json');
 
+const DOWNLOAD_PROXY_BASE = 'https://n0wayplugins.discloud.app/download';
+const DOWNLOAD_STATS_URL = 'https://n0wayplugins.discloud.app/api/downloads';
+
 const FIELD_ORDER = [
   'Author',
   'Name',
@@ -20,6 +23,7 @@ const FIELD_ORDER = [
   'DownloadLinkInstall',
   'DownloadLinkTesting',
   'DownloadLinkUpdate',
+  'DownloadCount',
   'IconUrl',
   'Tags',
 ];
@@ -49,8 +53,46 @@ async function fetchJson(url) {
   return response.json();
 }
 
+async function loadExistingCounts() {
+  const map = new Map();
+  try {
+    const existing = JSON.parse(await readFile(outputPath, 'utf8'));
+    if (Array.isArray(existing)) {
+      for (const item of existing) {
+        if (item?.InternalName && Number.isFinite(Number(item.DownloadCount))) {
+          map.set(item.InternalName, Math.max(0, Math.floor(Number(item.DownloadCount))));
+        }
+      }
+    }
+  } catch {
+    // Ignore if pluginmaster.json does not exist yet
+  }
+  return map;
+}
+
+async function fetchLiveDownloadCounts(fallbackMap) {
+  const map = new Map(fallbackMap);
+  try {
+    const data = await fetchJson(DOWNLOAD_STATS_URL);
+    const downloads = data?.downloads || {};
+    for (const [internalName, rawCount] of Object.entries(downloads)) {
+      const n = Number(rawCount);
+      if (Number.isFinite(n) && n >= 0) {
+        map.set(internalName, Math.floor(n));
+      }
+    }
+    console.log(`Fetched live download counts for ${Object.keys(downloads).length} plugin(s).`);
+  } catch (err) {
+    console.warn(`Warning: could not fetch live download counts (${err.message}); preserving existing counts.`);
+  }
+  return map;
+}
+
 async function main() {
   const sources = JSON.parse(await readFile(sourcesPath, 'utf8'));
+  const existingCounts = await loadExistingCounts();
+  const downloadCounts = await fetchLiveDownloadCounts(existingCounts);
+
   const merged = [];
   const seenInternalNames = new Set();
 
@@ -65,13 +107,6 @@ async function main() {
         ...rawEntry,
       };
 
-      if (!entry.DownloadLinkTesting && entry.DownloadLinkInstall) {
-        entry.DownloadLinkTesting = entry.DownloadLinkInstall;
-      }
-      if (!entry.DownloadLinkUpdate && entry.DownloadLinkInstall) {
-        entry.DownloadLinkUpdate = entry.DownloadLinkInstall;
-      }
-
       if (!entry.InternalName || !entry.Name || !entry.DownloadLinkInstall) {
         throw new Error(`Invalid plugin entry from ${source.url}: missing required fields.`);
       }
@@ -80,6 +115,13 @@ async function main() {
         throw new Error(`Duplicate InternalName detected: ${entry.InternalName}`);
       }
       seenInternalNames.add(entry.InternalName);
+
+      // Route downloads through n0wayplugins.discloud.app to count real installs/updates, then 302 redirect to GitHub zip
+      const trackedUrl = `${DOWNLOAD_PROXY_BASE}/${encodeURIComponent(entry.InternalName)}`;
+      entry.DownloadLinkInstall = trackedUrl;
+      entry.DownloadLinkTesting = trackedUrl;
+      entry.DownloadLinkUpdate = trackedUrl;
+      entry.DownloadCount = downloadCounts.get(entry.InternalName) ?? 0;
 
       merged.push(orderFields(entry));
     }
