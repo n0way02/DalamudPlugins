@@ -34,6 +34,7 @@ Add this single URL once in Dalamud to access and automatically update all plugi
 | **FateFrenzy** | `FateFrenzy` | Fully automated FATE farming plugin with pathfinding, instance/world hopping, voucher trading, retainer market listing, Discord alerts, and live web tracker. | [n0way02/FateFrenzy](https://github.com/n0way02/FateFrenzy) |
 | **Digitas Automatizados** | `KeyboundTyper` | Smart auto-typer and Auto-Loop farmer for the Gold Saucer **Keybound Brawler** minigame (FFXIV x FFVII). | [n0way02/DigitasAutomatizados](https://github.com/n0way02/DigitasAutomatizados) |
 | **SubFrenzy** | `SubFrenzy` | Automatic Submarine Gil & Salvaged Accessories tracker by day, month, year, and character — AutoRetainer Multi-Mode friendly with bar charts and EN/PT-BR UI. | [n0way02/SubFrenzy](https://github.com/n0way02/SubFrenzy) |
+| **FriendList Frenzy** | `FriendListFrenzy` | Modern Friend List manager with custom groups, nicknames, notes, Last Seen tracking, protected favorites, and safe Bulk Friend Removal. | [n0way02/FriendListFrenzy](https://github.com/n0way02/FriendListFrenzy) |
 
 ---
 

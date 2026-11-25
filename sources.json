@@ -27,5 +27,13 @@
       "RepoUrl": "https://github.com/n0way02/SubFrenzy",
       "DalamudApiLevel": 15
     }
+  },
+  {
+    "name": "FriendList Frenzy",
+    "url": "https://raw.githubusercontent.com/n0way02/FriendListFrenzy/main/pluginmaster.json",
+    "defaults": {
+      "RepoUrl": "https://github.com/n0way02/FriendListFrenzy",
+      "DalamudApiLevel": 15
+    }
   }
 ]
