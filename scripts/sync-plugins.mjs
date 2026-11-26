@@ -20,6 +20,7 @@ const FIELD_ORDER = [
   'Description',
   'ApplicableVersion',
   'DalamudApiLevel',
+  'TestingDalamudApiLevel',
   'RepoUrl',
   'DownloadLinkInstall',
   'DownloadLinkTesting',
