@@ -12,7 +12,7 @@
     "DownloadLinkInstall": "https://n0wayplugins.discloud.app/download/FateFrenzy",
     "DownloadLinkTesting": "https://n0wayplugins.discloud.app/download/FateFrenzy",
     "DownloadLinkUpdate": "https://n0wayplugins.discloud.app/download/FateFrenzy",
-    "DownloadCount": 6,
+    "DownloadCount": 8,
     "IconUrl": "https://raw.githubusercontent.com/n0way02/FateFrenzy/main/FateFrenzy/Images/Icon.png",
     "Tags": [
       "FATE",
@@ -57,7 +57,7 @@
     "DownloadLinkInstall": "https://n0wayplugins.discloud.app/download/SubFrenzy",
     "DownloadLinkTesting": "https://n0wayplugins.discloud.app/download/SubFrenzy",
     "DownloadLinkUpdate": "https://n0wayplugins.discloud.app/download/SubFrenzy",
-    "DownloadCount": 2,
+    "DownloadCount": 3,
     "IconUrl": "https://raw.githubusercontent.com/n0way02/SubFrenzy/main/images/icon.png",
     "Tags": [
       "Submarine",
