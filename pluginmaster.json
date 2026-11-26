@@ -109,7 +109,7 @@
     "DownloadLinkInstall": "https://n0wayplugins.discloud.app/download/PetFrenzy",
     "DownloadLinkTesting": "https://n0wayplugins.discloud.app/download/PetFrenzy?channel=testing",
     "DownloadLinkUpdate": "https://n0wayplugins.discloud.app/download/PetFrenzy",
-    "DownloadCount": 12,
+    "DownloadCount": 13,
     "IconUrl": "https://raw.githubusercontent.com/n0way02/PetFrenzy/main/images/icon.png",
     "Tags": [
       "Pet",
