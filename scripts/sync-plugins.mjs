@@ -15,6 +15,7 @@ const FIELD_ORDER = [
   'Name',
   'InternalName',
   'AssemblyVersion',
+  'TestingAssemblyVersion',
   'Punchline',
   'Description',
   'ApplicableVersion',
@@ -119,7 +120,9 @@ async function main() {
       // Route downloads through n0wayplugins.discloud.app to count real installs/updates, then 302 redirect to GitHub zip
       const trackedUrl = `${DOWNLOAD_PROXY_BASE}/${encodeURIComponent(entry.InternalName)}`;
       entry.DownloadLinkInstall = trackedUrl;
-      entry.DownloadLinkTesting = trackedUrl;
+      entry.DownloadLinkTesting = entry.TestingAssemblyVersion
+        ? `${trackedUrl}?channel=testing`
+        : trackedUrl;
       entry.DownloadLinkUpdate = trackedUrl;
       entry.DownloadCount = downloadCounts.get(entry.InternalName) ?? 0;
 
