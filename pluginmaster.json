@@ -12,7 +12,7 @@
     "DownloadLinkInstall": "https://n0wayplugins.discloud.app/download/FateFrenzy",
     "DownloadLinkTesting": "https://n0wayplugins.discloud.app/download/FateFrenzy",
     "DownloadLinkUpdate": "https://n0wayplugins.discloud.app/download/FateFrenzy",
-    "DownloadCount": 14,
+    "DownloadCount": 18,
     "IconUrl": "https://raw.githubusercontent.com/n0way02/FateFrenzy/main/FateFrenzy/Images/Icon.png",
     "Tags": [
       "FATE",
@@ -57,7 +57,7 @@
     "DownloadLinkInstall": "https://n0wayplugins.discloud.app/download/SubFrenzy",
     "DownloadLinkTesting": "https://n0wayplugins.discloud.app/download/SubFrenzy",
     "DownloadLinkUpdate": "https://n0wayplugins.discloud.app/download/SubFrenzy",
-    "DownloadCount": 3,
+    "DownloadCount": 4,
     "IconUrl": "https://raw.githubusercontent.com/n0way02/SubFrenzy/main/images/icon.png",
     "Tags": [
       "Submarine",
@@ -82,7 +82,7 @@
     "DownloadLinkInstall": "https://n0wayplugins.discloud.app/download/FriendListFrenzy",
     "DownloadLinkTesting": "https://n0wayplugins.discloud.app/download/FriendListFrenzy",
     "DownloadLinkUpdate": "https://n0wayplugins.discloud.app/download/FriendListFrenzy",
-    "DownloadCount": 8,
+    "DownloadCount": 12,
     "IconUrl": "https://raw.githubusercontent.com/n0way02/FriendListFrenzy/main/images/icon.png",
     "Tags": [
       "Friend",
@@ -107,7 +107,7 @@
     "DownloadLinkInstall": "https://n0wayplugins.discloud.app/download/PetFrenzy",
     "DownloadLinkTesting": "https://n0wayplugins.discloud.app/download/PetFrenzy",
     "DownloadLinkUpdate": "https://n0wayplugins.discloud.app/download/PetFrenzy",
-    "DownloadCount": 44,
+    "DownloadCount": 54,
     "IconUrl": "https://raw.githubusercontent.com/n0way02/PetFrenzy/main/images/icon.png",
     "Tags": [
       "Pet",
