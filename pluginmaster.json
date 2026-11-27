@@ -12,7 +12,7 @@
     "DownloadLinkInstall": "https://n0wayplugins.discloud.app/download/FateFrenzy",
     "DownloadLinkTesting": "https://n0wayplugins.discloud.app/download/FateFrenzy",
     "DownloadLinkUpdate": "https://n0wayplugins.discloud.app/download/FateFrenzy",
-    "DownloadCount": 21,
+    "DownloadCount": 26,
     "IconUrl": "https://raw.githubusercontent.com/n0way02/FateFrenzy/main/FateFrenzy/Images/Icon.png",
     "Tags": [
       "FATE",
@@ -101,14 +101,13 @@
     "AssemblyVersion": "1.1.1.4",
     "Punchline": "Animated Eorzea Tamagotchi with Live Multiplayer, 8-Player Co-op Mini-Bosses, Deviruchi, Job weapons & Wardrobe!",
     "Description": "Animated Eorzea Tamagotchi companion for FFXIV with Live Multiplayer & 8-Player Co-op Mini-Bosses! Hatch a Carbuncle, Fat Cat, Moogle, Namazu, Fluffy Shepherd, or Deviruchi, pet & gift friends' companions, invite nearby players to battle Level-Scaled Mini-Bosses with a shared Limit Break, level up to Lv.100 across ALL FFXIV content, equip all 43 Job weapons & tools, and customize Hats, Outfits, Wings, Weapon Auras, and RGB Colors.",
-    "Changelog": "v1.1.1.2: Transparent / borderless floating Pet HUD is now enabled by default for a cleaner look right out of the box! Plus live Pet update alerts, Deviruchi companion, 8-Player Co-op Mini-Boss Arena & Zone Invites.",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "RepoUrl": "https://github.com/n0way02/PetFrenzy",
     "DownloadLinkInstall": "https://n0wayplugins.discloud.app/download/PetFrenzy",
     "DownloadLinkTesting": "https://n0wayplugins.discloud.app/download/PetFrenzy",
     "DownloadLinkUpdate": "https://n0wayplugins.discloud.app/download/PetFrenzy",
-    "DownloadCount": 62,
+    "DownloadCount": 79,
     "IconUrl": "https://raw.githubusercontent.com/n0way02/PetFrenzy/main/images/icon.png",
     "Tags": [
       "Pet",
@@ -120,6 +119,7 @@
       "Carbuncle",
       "Moogle",
       "Namazu"
-    ]
+    ],
+    "Changelog": "v1.1.1.2: Transparent / borderless floating Pet HUD is now enabled by default for a cleaner look right out of the box! Plus live Pet update alerts, Deviruchi companion, 8-Player Co-op Mini-Boss Arena & Zone Invites."
   }
 ]
