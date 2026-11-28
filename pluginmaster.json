@@ -12,7 +12,7 @@
     "DownloadLinkInstall": "https://n0wayplugins.discloud.app/download/FateFrenzy",
     "DownloadLinkTesting": "https://n0wayplugins.discloud.app/download/FateFrenzy",
     "DownloadLinkUpdate": "https://n0wayplugins.discloud.app/download/FateFrenzy",
-    "DownloadCount": 26,
+    "DownloadCount": 27,
     "IconUrl": "https://raw.githubusercontent.com/n0way02/FateFrenzy/main/FateFrenzy/Images/Icon.png",
     "Tags": [
       "FATE",
@@ -107,7 +107,7 @@
     "DownloadLinkInstall": "https://n0wayplugins.discloud.app/download/PetFrenzy",
     "DownloadLinkTesting": "https://n0wayplugins.discloud.app/download/PetFrenzy",
     "DownloadLinkUpdate": "https://n0wayplugins.discloud.app/download/PetFrenzy",
-    "DownloadCount": 79,
+    "DownloadCount": 88,
     "IconUrl": "https://raw.githubusercontent.com/n0way02/PetFrenzy/main/images/icon.png",
     "Tags": [
       "Pet",
